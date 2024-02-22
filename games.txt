@@ -1,0 +1,14 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+The games module assignment presented me with a few points of struggle. Conceptually everything was clear, but when it came down to the implementation 
+I had myself wondering in a few scenarios. Regardless of that, I picked up a huge amount of interesting information thanks to the fact that I was able 
+to put my knowledge to the test with this task to challenge my understanding of this module. 
+Firstly, I realized that comparing alpha with beta is actually "greater/lesser or equal" rather than a strict inequality. Fixing this bug alone sped up 
+my pruning about 3 times.
+Secondly, I was amazed by the difference in time execution when we introduced the limit parameter. I am becoming a huge fan of iterative deepening technique
+the more I work on anything that involves some sort of tree in data structure.
+Thirdly, and rather unsurprisingly, I was made aware that the concept of caching is very useful and the AI field is no exception to this. Especially thanks 
+to the fact that we have ADTs (e.g. dictionaries/hashmaps) that help us locate information in O(1). 
+In addition to the aforementioned, I realized that the concept of heuristic in this context is rather different from what we learned in the search module. 
+And the fact that I did not re-adjust myself to the new context made me waste a lot of time while designing my heuristic function.
